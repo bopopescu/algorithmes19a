@@ -1,0 +1,47 @@
+hotel room booking
+------------------
+Connection
+-----------
+- connection, cursor
+-> insert_update_delete select
+
+user/staff
+- username password type personal_details
+-> register, login
+
+room
+- number capacity type price features
+-> add show update delete
+
+customer
+- name phone personal_details
+-> add show update delete
+
+booking
+- customer room check_in_date check_out_date
+-> add show update delete
+
+service
+- name details charge
+-> add show update delete
+
+items
+- name type price
+-> add show update delete
+
+bill
+- bill_no customer (booking service items) date approved_by sc discount vat
+
+
+views
+-----
+Login -> Dashboard -> display booking details with search options
+                   -> Room
+                   -> Service
+                   -> Items
+                   -> Booking
+                   -> Service Used
+                   -> Item Ordered
+                   -> Bill
+                   -> Register
+
